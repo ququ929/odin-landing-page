@@ -2,20 +2,23 @@ body {
     display: flex;
     flex-direction: column;
     font-family: roboto, sans-serif;
-    background-color: #1F2937;
+    background-color: black;
     font-size: 16px;
-    padding: 0 210px;
-    
+    margin: 0px;
+    }
+
+.header, .main, .information, .footer {
+    padding: 0 200px;
 }
 
 /* header section */
 
 .header {
     color: #F9FAF8;
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 100px;
 }
 
 .logo {
@@ -37,9 +40,10 @@ ul {
 /* main section */
 
 .main {
+    background-color: #1F2937;
     display: flex;
-    margin-bottom: 100px;
     align-items: center;
+    padding: 50px 200px;
 }
 
 .left {
@@ -73,4 +77,31 @@ button {
 img {
     max-width: 500px;
     height: auto;
+}
+
+/* information section */
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    gap: 30px;
+}
+
+.information img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.information .bottom {
+    display: flex;
+}
+
+.info_header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
 }
