@@ -98,7 +98,7 @@ img {
     display: flex;
 }
 
-.info_header {
+.info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -114,7 +114,7 @@ img {
     padding: 120px 350px;
 }
 
-.quote_text {
+.quote-text {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
