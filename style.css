@@ -1,14 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: black;
     font-size: 16px;
     margin: 0px;
     }
 
-.header, .main, .information, .footer {
-    padding: 0 200px;
+.header, .main, .information, .footer, .quote {
+    padding: 50px 200px;
 }
 
 /* header section */
@@ -19,6 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 0px;
 }
 
 .logo {
@@ -43,7 +44,6 @@ ul {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 50px 200px;
 }
 
 .left {
@@ -85,7 +85,6 @@ img {
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 50px 200px;
     gap: 30px;
 }
 
@@ -104,4 +103,25 @@ img {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+}
+
+/* quote section */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 350px;
+}
+
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 800;
 }
