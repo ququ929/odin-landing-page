@@ -125,3 +125,29 @@ img {
     font-size: 24px;
     font-weight: 800;
 }
+
+/* sign up section */
+.sign-up {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-container {
+    padding: 50px 100px;
+    margin: 100px 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    gap: 200px;
+}
+
+.sign-up-left .title {
+    font-size: 24px;
+}
+
+.sign-up-right {
+    border: 3px solid white;
+    padding: 0px 30px;
+}
