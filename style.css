@@ -151,3 +151,16 @@ img {
     border: 3px solid white;
     padding: 0px 30px;
 }
+
+/* footer section */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: cetner;
+}
+
+.copyright {
+    color: #E5E7EB;
+    font-size: 18px;
+}
